@@ -1,0 +1,341 @@
+1)batch12.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Boys Hostels Near Universities</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+</head>
+
+<body>
+
+<div class="header">
+<img src="logo.jpg" class="logo">
+<h1 class="title">Boys Hostels Near Universities AP</h1>
+</div>
+
+<div class="nav">
+<a href="#">Home</a>
+<a href="#colleges">Colleges</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</div>
+
+<section id="colleges" class="college-container">
+
+<div class="college-card">
+<h3>VFSTR</h3>
+<button onclick="selectCollege('VFSTR','vfstr.html')">View Hostels</button>
+</div>
+
+<div class="college-card">
+<h3>KL</h3>
+<button onclick="selectCollege('KL University','kl.html')">View Hostels</button>
+</div>
+
+<div class="college-card">
+<h3>SRM-AP</h3>
+<button onclick="selectCollege('SRM-AP','srm.html')">View Hostels</button>
+</div>
+
+<div class="college-card">
+<h3>VIT-AP</h3>
+<button onclick="selectCollege('VIT-AP','vit.html')">View Hostels</button>
+</div>
+
+</section>
+
+</body>
+</html>
+
+2)vfstr.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>VFSTR Hostels</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+</head>
+
+<body>
+
+<div class="header">
+<h1>VFSTR Boys Hostels</h1>
+</div>
+
+<div class="container">
+
+<div class="card">
+<h3>VFSTR Hostel 1</h3>
+<a href="#" class="btn" onclick="selectHostel('VFSTR Hostel 1')">Apply Now</a>
+</div>
+
+<div class="card">
+<h3>VFSTR Hostel 2</h3>
+<a href="#" class="btn" onclick="selectHostel('VFSTR Hostel 2')">Apply Now</a>
+</div>
+
+<div class="card">
+<h3>VFSTR Hostel 3</h3>
+<a href="#" class="btn" onclick="selectHostel('VFSTR Hostel 3')">Apply Now</a>
+</div>
+
+</div>
+
+<div class="back">
+<a href="batch12.html" class="btn">Back</a>
+</div>
+
+</body>
+</html>
+
+3)kl.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>KL Hostels</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+</head>
+
+<body>
+
+<div class="header">
+<h1>KL Boys Hostels</h1>
+</div>
+
+<div class="container">
+
+<div class="card">
+<h3>KL Hostel 1</h3>
+<a href="#" class="btn" onclick="selectHostel('KL Hostel 1')">Apply</a>
+</div>
+
+<div class="card">
+<h3>KL Hostel 2</h3>
+<a href="#" class="btn" onclick="selectHostel('KL Hostel 2')">Apply</a>
+</div>
+
+<div class="card">
+<h3>KL Hostel 3</h3>
+<a href="#" class="btn" onclick="selectHostel('KL Hostel 3')">Apply</a>
+</div>
+
+</div>
+
+<div class="back">
+<a href="batch12.html" class="btn">Back</a>
+</div>
+
+</body>
+</html>
+
+4)srm.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>SRM Hostels</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+</head>
+
+<body>
+
+<div class="header">
+<h1>SRM-AP Boys Hostels</h1>
+</div>
+
+<div class="container">
+
+<div class="card">
+<h3>SRM Hostel 1</h3>
+<a href="#" class="btn" onclick="selectHostel('SRM Hostel 1')">Apply</a>
+</div>
+
+<div class="card">
+<h3>SRM Hostel 2</h3>
+<a href="#" class="btn" onclick="selectHostel('SRM Hostel 2')">Apply</a>
+</div>
+
+<div class="card">
+<h3>SRM Hostel 3</h3>
+<a href="#" class="btn" onclick="selectHostel('SRM Hostel 3')">Apply</a>
+</div>
+
+</div>
+
+<div class="back">
+<a href="batch12.html" class="btn">Back</a>
+</div>
+
+</body>
+</html>
+
+5)vit.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>VIT Hostels</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+</head>
+
+<body>
+
+<div class="header">
+<h1>VIT-AP Boys Hostels</h1>
+</div>
+
+<div class="container">
+
+<div class="card">
+<h3>VIT Hostel 1</h3>
+<a href="#" class="btn" onclick="selectHostel('VIT Hostel 1')">Apply</a>
+</div>
+
+<div class="card">
+<h3>VIT Hostel 2</h3>
+<a href="#" class="btn" onclick="selectHostel('VIT Hostel 2')">Apply</a>
+</div>
+
+<div class="card">
+<h3>VIT Hostel 3</h3>
+<a href="#" class="btn" onclick="selectHostel('VIT Hostel 3')">Apply</a>
+</div>
+
+</div>
+
+<div class="back">
+<a href="batch12.html" class="btn">Back</a>
+</div>
+
+</body>
+</html>
+
+6)fp.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+</head>
+
+<body>
+
+<div class="form-container">
+
+<form onsubmit="saveForm1(); return false;">
+
+<h1 id="dynamicTitle">Hostel Registration</h1>
+
+<input type="text" id="name" placeholder="Name" required>
+<input type="text" id="father" placeholder="Father Name" required>
+<input type="date" id="dob" required>
+<input type="text" id="course" placeholder="Course" required>
+
+<select id="year" required>
+<option value="">Year</option>
+<option>1</option><option>2</option>
+<option>3</option><option>4</option>
+</select>
+
+<input type="email" id="email" placeholder="Email" required>
+<input type="tel" id="phone" placeholder="Phone" required>
+<input type="text" id="address" placeholder="Address" required>
+
+<button type="submit">Next</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
+
+7)fp2.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Facilities</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+</head>
+
+<body>
+
+<div class="form-container">
+
+<form onsubmit="openModal(event)">
+
+<select id="room" required>
+<option value="">Room</option>
+<option>AC</option>
+<option>NON-AC</option>
+</select>
+
+<select id="sharing" required>
+<option value="">Sharing</option>
+<option>Single</option>
+<option>Double</option>
+<option>Triple</option>
+<option>Quadruple</option>
+</select>
+
+<select id="food" required>
+<option value="">Food</option>
+<option>Veg</option>
+<option>Non-Veg</option>
+</select>
+
+<select id="gym" required>
+<option value="">Gym</option>
+<option>Yes</option>
+<option>No</option>
+</select>
+
+<button>Submit</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
+
+8)success.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Success</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+</head>
+
+<body>
+
+<div class="box">
+<h1 id="msg"></h1>
+<p>Registration Successful</p>
+
+<a href="batch12.html" class="btn">Home</a>
+</div>
+
+</body>
+</html>

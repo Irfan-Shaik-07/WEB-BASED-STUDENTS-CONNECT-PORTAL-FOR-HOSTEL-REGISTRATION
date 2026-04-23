@@ -1,0 +1,242 @@
+1)batch12.css
+body{
+    background-image:url("bg.jpg");
+    background-size:cover;
+    padding:20px;
+    font-family:Arial;
+}
+
+.header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:black;
+    color:white;
+    padding:20px;
+}
+
+.nav{
+    text-align:center;
+    background:black;
+    padding:10px;
+}
+
+.nav a{
+    color:white;
+    margin:10px;
+    text-decoration:none;
+}
+
+.college-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.college-card{
+    background:white;
+    padding:20px;
+    width:200px;
+    text-align:center;
+}
+
+2)vfstr.css
+body{
+    background:url("bg.jpg");
+    background-size:cover;
+    font-family:Arial;
+}
+
+.header{
+    text-align:center;
+    color:white;
+    background:black;
+    padding:20px;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    padding:40px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    width:220px;
+    text-align:center;
+}
+
+.btn{
+    background:black;
+    color:white;
+    padding:10px;
+    display:inline-block;
+    margin-top:10px;
+}
+
+3)kl.css
+body{
+    background:url("bg.jpg");
+    background-size:cover;
+    font-family:Arial;
+}
+
+.header{
+    text-align:center;
+    background:black;
+    color:white;
+    padding:20px;
+}
+
+.container{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+    padding:40px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    width:220px;
+    text-align:center;
+}
+
+4)srm.css
+body{
+    background:url("bg.jpg");
+    background-size:cover;
+    font-family:Arial;
+}
+
+.header{
+    text-align:center;
+    background:black;
+    color:white;
+    padding:20px;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    width:220px;
+    text-align:center;
+}
+
+5)vit.css
+body{
+    background:url("bg.jpg");
+    background-size:cover;
+    font-family:Arial;
+}
+
+.header{
+    text-align:center;
+    background:black;
+    color:white;
+    padding:20px;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    width:220px;
+    text-align:center;
+}
+
+6)fp.css
+body{
+    background:url("bg.jpg");
+    background-size:cover;
+    font-family:Arial;
+}
+
+.form-container{
+    background:white;
+    padding:40px;
+    max-width:800px;
+    margin:auto;
+}
+
+input, select{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
+
+button{
+    background:black;
+    color:white;
+    padding:10px;
+    width:100%;
+}
+
+7)fp2.css
+body{
+    background:url("bg.jpg");
+    background-size:cover;
+    font-family:Arial;
+}
+
+.form-container{
+    background:white;
+    padding:30px;
+    max-width:500px;
+    margin:auto;
+}
+
+select, button{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+}
+
+.modal{
+    display:none;
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,0.5);
+}
+
+8)success.css
+body{
+    background:url("bg.jpg");
+    background-size:cover;
+    font-family:Arial;
+}
+
+.box{
+    background:white;
+    padding:40px;
+    max-width:400px;
+    margin:auto;
+    text-align:center;
+}
+
+.btn{
+    background:black;
+    color:white;
+    padding:10px;
+    display:inline-block;
+    margin-top:10px;
+}

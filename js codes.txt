@@ -1,0 +1,102 @@
+1)batch12.js
+function selectCollege(collegeName, page){
+    localStorage.setItem("selectedCollege", collegeName);
+    window.location.href = page;
+}
+
+2)vfstr.js
+function selectHostel(hostelName){
+    localStorage.setItem("selectedHostel", hostelName);
+    window.location.href = "fp.html";
+}
+
+3)kl.js
+function selectHostel(hostelName){
+    localStorage.setItem("selectedHostel", hostelName);
+    window.location.href = "fp.html";
+}
+
+4)srm.js
+function selectHostel(hostelName){
+    localStorage.setItem("selectedHostel", hostelName);
+    window.location.href = "fp.html";
+}
+
+5)vit.js
+function selectHostel(hostelName){
+    localStorage.setItem("selectedHostel", hostelName);
+    window.location.href = "fp.html";
+}
+
+6)fp.js
+function saveForm1(){
+
+    const data={
+        name:document.getElementById("name").value,
+        father:document.getElementById("father").value,
+        dob:document.getElementById("dob").value,
+        course:document.getElementById("course").value,
+        year:document.getElementById("year").value,
+        email:document.getElementById("email").value,
+        phone:document.getElementById("phone").value,
+        address:document.getElementById("address").value,
+        gender:document.querySelector('input[name="gender"]:checked').value
+    };
+
+    localStorage.setItem("form1",JSON.stringify(data));
+    window.location.href="fp2.html";
+}
+
+// Dynamic title
+window.onload = function(){
+    const college = localStorage.getItem("selectedCollege");
+    let hostel = localStorage.getItem("selectedHostel");
+
+    if(college && hostel){
+        hostel = hostel.replace(college + " ", "");
+        document.getElementById("dynamicTitle").innerText =
+        hostel + " Registration";
+    }
+};
+
+7)fp2.js
+function openModal(e){
+    e.preventDefault();
+    document.getElementById("modal").style.display="flex";
+}
+
+function closeModal(){
+    document.getElementById("modal").style.display="none";
+}
+
+function saveForm2(){
+
+    const data={
+        room:document.getElementById("room").value,
+        sharing:document.getElementById("sharing").value,
+        food:document.getElementById("food").value,
+        health:document.getElementById("health").value,
+        gym:document.getElementById("gym").value
+    };
+
+    localStorage.setItem("form2",JSON.stringify(data));
+    window.location.href="success.html";
+}
+
+8)success.js
+const f1 = JSON.parse(localStorage.getItem("form1"));
+const f2 = JSON.parse(localStorage.getItem("form2"));
+const college = localStorage.getItem("selectedCollege");
+const hostel = localStorage.getItem("selectedHostel");
+
+if(f1){
+    document.getElementById("msg").innerText =
+    "Thank you, " + f1.name + "\n\n" +
+    "College: " + college + "\n" +
+    "Hostel: " + hostel;
+}
+
+console.log("College:", college);
+console.log("Hostel:", hostel);
+console.log("Form1:", f1);
+console.log("Form2:", f2);
